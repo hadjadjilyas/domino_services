@@ -1,0 +1,901 @@
+.macbook-pro {
+  background-color: #e2eff1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-pro .div {
+  background-color: #e2eff1;
+  height: 5607px;
+  position: relative;
+  width: 100%;
+}
+
+.macbook-pro .overlap-group {
+  background-color: #a6ceda;
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.macbook-pro .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 72px;
+  left: 838px;
+  position: absolute;
+  top: 46px;
+}
+
+.macbook-pro .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5%; /* Utilisation de pourcentages pour l'écart entre les éléments */
+  position: relative;
+}
+
+/* Pour les grands écrans */
+@media (min-width: 1200px) {
+  .macbook-pro .frame-2 {
+    top: 10%; /* Positionner à 10% du haut de l'élément parent */
+    left: 10%; /* Positionner à 10% de la gauche de l'élément parent */
+  }
+}
+
+/* Pour les écrans moyens */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .macbook-pro .frame-2 {
+    top: 15%; /* Ajuster la position pour les écrans moyens */
+    left: 15%;
+  }
+}
+
+/* Pour les petits écrans */
+@media (max-width: 767px) {
+  .macbook-pro .frame-2 {
+    top: 20%; /* Ajuster la position pour les petits écrans */
+    left: 20%;
+  }
+}
+
+
+.macbook-pro .text-wrapper {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 214px;
+}
+
+.macbook-pro .text-wrapper-2 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 162px;
+}
+
+.macbook-pro .logodomino-blanc {
+  height: 90px;
+  left: 79px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 85px;
+}
+
+.macbook-pro .overlap {
+  background-image: url(../../../static/img/adobestock-605300668-1.png);
+  background-size: 100% 100%;
+  height: 416px;
+  left: 0;
+  position: absolute;
+  top: 128px;
+  width: 100%;
+}
+
+.macbook-pro .rectangle {
+  background-color: #a6ceda82;
+  border-radius: 0px 0px 0px 85px;
+  height: 184px;
+  left: 60%;
+  position: absolute;
+  top: 116px;
+  width: 392px;
+}
+
+.macbook-pro .domino-services-des {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 800;
+  left: 63%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 148px;
+  width: 371px;
+}
+
+.macbook-pro .span {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.macbook-pro .text-wrapper-3 {
+  font-size: 25px;
+}
+
+.macbook-pro .text-wrapper-4 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 31px;
+  font-weight: 800;
+  left: 668px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1097px;
+  width: 175px;
+}
+
+.macbook-pro .text-wrapper-5 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 31px;
+  font-weight: 800;
+  left: 663px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1586px;
+  width: 185px;
+}
+
+.macbook-pro .text-wrapper-6 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1296px;
+  width: 229px;
+}
+
+.macbook-pro .text-wrapper-7 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1804px;
+  width: 541px;
+}
+
+.macbook-pro .text-wrapper-8 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2275px;
+  width: 541px;
+}
+
+.macbook-pro .text-wrapper-9 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2725px;
+  width: 541px;
+}
+
+.macbook-pro .text-wrapper-10 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3236px;
+  width: 541px;
+}
+
+.macbook-pro .p {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3685px;
+  width: 541px;
+}
+
+.macbook-pro .text-wrapper-11 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 607px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1296px;
+  width: 229px;
+}
+
+.macbook-pro .text-wrapper-12 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 1093px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1296px;
+  width: 229px;
+}
+
+.macbook-pro .text-wrapper-13 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 31px;
+  font-weight: 800;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 657px;
+  width: 383px;
+}
+
+.macbook-pro .overlap-2 {
+  height: 77px;
+  left: 607px;
+  position: absolute;
+  top: 1200px;
+  width: 85px;
+}
+
+.macbook-pro .rectangle-2 {
+  background-color: #ffffff;
+  border: 3px solid;
+  border-color: #78b2c5;
+  border-radius: 0px 0px 0px 35px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 85px;
+}
+
+.macbook-pro .noun-reliability {
+  height: 68px;
+  left: 16px;
+  position: absolute;
+  top: 9px;
+  width: 54px;
+}
+
+.macbook-pro .overlap-3 {
+  height: 78px;
+  left: 1093px;
+  position: absolute;
+  top: 1200px;
+  width: 85px;
+}
+
+.macbook-pro .noun-flexible-work {
+  height: 64px;
+  left: 20px;
+  position: absolute;
+  top: 13px;
+  width: 52px;
+}
+
+.macbook-pro .overlap-4 {
+  height: 367px;
+  left: 60%;
+  position: absolute;
+  top: 619px;
+  width: 363px;
+}
+
+.macbook-pro .ellipse {
+  background-color: #a6ceda;
+  border-radius: 68.5px/66px;
+  height: 132px;
+  left: 0;
+  position: absolute;
+  top: 235px;
+  width: 137px;
+}
+
+.macbook-pro .adobestock {
+  height: 337px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 341px;
+}
+
+.macbook-pro .optimisez-vos {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: 35.8px;
+  position: absolute;
+  top: 1875px;
+  width: 564px;
+}
+
+.macbook-pro .pour-domino-services {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: 35.8px;
+  position: absolute;
+  top: 2347px;
+  width: 564px;
+}
+
+.macbook-pro .pour-l-entretien-de {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: 35.8px;
+  position: absolute;
+  top: 2797px;
+  width: 564px;
+}
+
+.macbook-pro .la-poussi-re-peut {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3312px;
+  width: 564px;
+}
+
+.macbook-pro .text-wrapper-14 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3788px;
+  width: 564px;
+}
+
+.macbook-pro .img {
+  height: 470px;
+  left: 811px;
+  position: absolute;
+  top: 2655px;
+  width: 531px;
+}
+
+.macbook-pro .capture-dcran {
+  height: 470px;
+  left: 154px;
+  position: absolute;
+  top: 3138px;
+  width: 531px;
+}
+
+.macbook-pro .div-wrapper {
+  background-color: #a7cedb;
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 5554px;
+  width: 1512px;
+}
+
+.macbook-pro .text-wrapper-15 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+  width: 303px;
+}
+
+.macbook-pro .overlap-5 {
+  background-color: #a6ceda82;
+  border-radius: 0px 0px 0px 85px;
+  height: 1111px;
+  left: 162px;
+  position: absolute;
+  top: 4283px;
+  width: 1188px;
+}
+
+.macbook-pro .rectangle-3 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 20px;
+  height: 60px;
+  left: 63px;
+  position: absolute;
+  top: 208px;
+  width: 246px;
+}
+
+.macbook-pro .rectangle-4 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 20px;
+  height: 60px;
+  left: 335px;
+  position: absolute;
+  top: 208px;
+  width: 246px;
+}
+
+.macbook-pro .overlap-6 {
+  height: 35px;
+  left: 78px;
+  position: absolute;
+  top: 163px;
+  width: 695px;
+}
+
+.macbook-pro .nom {
+  color: transparent;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 433px;
+}
+
+.macbook-pro .text-wrapper-16 {
+  color: #000000;
+}
+
+.macbook-pro .text-wrapper-17 {
+  color: #77b2c4;
+}
+
+.macbook-pro .pr-nom {
+  color: transparent;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 262px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+  width: 433px;
+}
+
+.macbook-pro .rectangle-5 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 20px;
+  height: 60px;
+  left: 63px;
+  position: absolute;
+  top: 345px;
+  width: 518px;
+}
+
+.macbook-pro .e-mail {
+  color: transparent;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 299px;
+  width: 433px;
+}
+
+.macbook-pro .rectangle-6 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 30px;
+  height: 60px;
+  left: 63px;
+  position: absolute;
+  top: 479px;
+  width: 518px;
+}
+
+.macbook-pro .confirmation-e-mail {
+  color: transparent;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 434px;
+  width: 433px;
+}
+
+.macbook-pro .rectangle-7 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 30px;
+  height: 60px;
+  left: 63px;
+  position: absolute;
+  top: 622px;
+  width: 518px;
+}
+
+.macbook-pro .num-ro-de-t-l-phone {
+  color: transparent;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 574px;
+  width: 433px;
+}
+
+.macbook-pro .rectangle-8 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 20px;
+  height: 131px;
+  left: 63px;
+  position: absolute;
+  top: 759px;
+  width: 518px;
+}
+
+.macbook-pro .text-wrapper-18 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 712px;
+  width: 433px;
+}
+
+.macbook-pro .overlap-7 {
+  height: 65px;
+  left: 63px;
+  position: absolute;
+  top: 953px;
+  width: 169px;
+}
+
+.macbook-pro .rectangle-9 {
+  background-color: #77b2c4;
+  border-radius: 0px 0px 0px 20px;
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.macbook-pro .text-wrapper-19 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 800;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  width: 128px;
+}
+
+.macbook-pro .text-wrapper-20 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 31px;
+  font-weight: 800;
+  left: 470px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 69px;
+  width: 235px;
+}
+
+.macbook-pro .overlap-8 {
+  background-color: #ffffff;
+  border: 3px solid;
+  border-color: #77b2c4;
+  border-radius: 0px 0px 0px 85px;
+  height: 692px;
+  left: 633px;
+  position: absolute;
+  top: 198px;
+  width: 496px;
+}
+
+.macbook-pro .text-wrapper-21 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 47px;
+  width: 434px;
+}
+
+.macbook-pro .text-wrapper-22 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 242px;
+}
+
+.macbook-pro .text-wrapper-23 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 206px;
+  width: 434px;
+}
+
+.macbook-pro .text-wrapper-24 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+  width: 282px;
+}
+
+.macbook-pro .text-wrapper-25 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 310px;
+  width: 347px;
+}
+
+.macbook-pro .capture-dcran-2 {
+  height: 233px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 370px;
+  width: 366px;
+}
+
+.macbook-pro .text-wrapper-26 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 142px;
+  width: 142px;
+}
+
+.macbook-pro .noun-location {
+  height: 41px;
+  left: 43px;
+  position: absolute;
+  top: 300px;
+  width: 33px;
+}
+
+.macbook-pro .vector {
+  height: 24px;
+  left: 49px;
+  position: absolute;
+  top: 260px;
+  width: 25px;
+}
+
+.macbook-pro .noun-phone {
+  height: 25px;
+  left: 49px;
+  position: absolute;
+  top: 143px;
+  width: 20px;
+}
+
+.macbook-pro .noun-email {
+  height: 35px;
+  left: 45px;
+  position: absolute;
+  top: 98px;
+  width: 29px;
+}
+
+.macbook-pro .cr-e-en-et-bas {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 724px;
+  width: 772px;
+}
+
+.macbook-pro .line {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 126px;
+  width:100%;
+}
+
+.macbook-pro .nous-nous-engageons {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1359px;
+  width: 337px;
+}
+
+.macbook-pro .text-wrapper-27 {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 606px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1359px;
+  width: 388px;
+}
+
+.macbook-pro .nous-adaptons-nos {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  left: 1092px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1359px;
+  width: 337px;
+}
+
+.macbook-pro .adobestock-2 {
+  height: 471px;
+  left: 814px;
+  position: absolute;
+  top: 3627px;
+  width: 531px;
+}
+
+.macbook-pro .adobestock-3 {
+  height: 470px;
+  left: 155px;
+  position: absolute;
+  top: 2190px;
+  width: 532px;
+}
+
+.macbook-pro .overlap-9 {
+  height: 77px;
+  left: 121px;
+  position: absolute;
+  top: 1200px;
+  width: 85px;
+}
+
+.macbook-pro .noun-quality {
+  height: 69px;
+  left: 17px;
+  position: absolute;
+  top: 8px;
+  width: 55px;
+}
+
+.macbook-pro .adobestock-4 {
+  height: 469px;
+  left: 810px;
+  position: absolute;
+  top: 1744px;
+  width: 531px;
+}
